@@ -6,7 +6,7 @@ import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 public class Main {
 
     public static void main(String[] args) {
-
+    
         PersonFactory<Plumber> plumberFactory = Plumber::new;
         PersonFactory<BankTeller> bankTellerPersonFactory = BankTeller::new;
         Plumber p1 = plumberFactory.create("Pekka");
